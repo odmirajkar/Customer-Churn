@@ -9,7 +9,7 @@ https://www.kaggle.com/jpacse/datasets-for-churn-telecom
 
 
 ### Summary 
-This is exploratory dtaa analysis project for cell2cell data set available on kaggel. 
+This is  data analysis project for cell2cell data set available on kaggel. 
 in this project, I tried to answer few question regarding dataset and customer pattern for churn
 I have asked 7 basic questions and tried to get answer to those question using data sceience
 
@@ -22,6 +22,8 @@ I have asked 7 basic questions and tried to get answer to those question using d
 - Are any specific income group customers are losing ? 
 - Is there any pattern in credit class of a customer 
 
+Once exploratory data analysis is completed data is wranggled and adaboost and gridsearch is used to predict customer churn
+
 ### Libraries used
 I used pandas to do data manupulation and analysis and matplotlib for data visualization 
 
@@ -30,5 +32,5 @@ I used pandas to do data manupulation and analysis and matplotlib for data visua
 2. customerChurn.py, python script for data analysis. 
 3. cell2celltrain.csv data set used for analysis
 4. various png files, saved graphs generated for data visualazation by python script
-
+5. datavisualize.py helper file with code for data visualization
 
